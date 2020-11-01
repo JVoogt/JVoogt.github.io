@@ -8,6 +8,7 @@ comments: true
 ## Introduction
 
 ## Code
+
 {% highlight sql %}
 
 {% endhighlight %}
@@ -15,7 +16,7 @@ comments: true
 ## Review
 
 ## External Links
-[link](link)
 
+[link](link)
 
 {% include footer.html %}

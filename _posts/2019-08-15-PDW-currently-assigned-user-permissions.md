@@ -6,9 +6,11 @@ comments: true
 ---
 
 ## Introduction
+
 Let us jump right in, the first thing that we need to know is that the APS/PDW is not like a normal SQL Server instance. It does look and feel like one, but it has its own little quirks. One of the big ones is that it is not as straight forward to see current assigned User Permissions as what one would expect.
 
 ## Code Snippet
+
 {% highlight sql %}
 SELECT	DPUsers.name AS UserName, 
 		permission_name,	
@@ -23,9 +25,11 @@ and DPUsers.name not like 'l_cert%'
 {% endhighlight %}
 
 ## Review
+
 The above code snippet will return you with the Username, The Granted Permission and the ObjectName if only granted on a specific object.
 
 ## External Links
+
 [https://www.microsoft.com/en-us/sql-server/analytics-platform-system](https://www.microsoft.com/en-us/sql-server/analytics-platform-system)
 
 [https://docs.microsoft.com/en-us/sql/analytics-platform-system/parallel-data-warehouse-overview?view=aps-pdw-2016-au7](https://docs.microsoft.com/en-us/sql/analytics-platform-system/parallel-data-warehouse-overview?view=aps-pdw-2016-au7)

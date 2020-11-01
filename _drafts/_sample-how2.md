@@ -7,17 +7,16 @@ comments: true
 
 ## Introduction
 
-
 ## Headers
 
 ### Code
+
 {% highlight sql %}
 
 {% endhighlight %}
 
-
 ## External Links
-[link](link)
 
+[link](link)
 
 {% include post_footer.html %}
