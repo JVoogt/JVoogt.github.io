@@ -1,20 +1,23 @@
 ---
 layout: post
 title: Title
+categories: how2
 comments: true
 ---
 
 ## Introduction
 
-## Code Snippet
+
+## Headers
+
+### Code
 {% highlight sql %}
 
 {% endhighlight %}
 
-## Review
 
 ## External Links
 [link](link)
 
 
-{% include footer.html %}
+{% include post_footer.html %}
