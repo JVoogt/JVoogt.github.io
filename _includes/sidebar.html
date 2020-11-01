@@ -5,11 +5,40 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-logo" style="align:center">
-    <img src="https://s.gravatar.com/avatar/f7c0ed1d08b47e6d23244fa326e051b3?s=275" />
+    <img src="https://s.gravatar.com/avatar/{{site.author.email_md5}}?s=275" />
   </div>
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
+
+  <div id="contact-list" style="text-align:center">
+    {% if site.author.github %}
+      <a href="https://github.com/{{ site.author.github }}">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-github-alt fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
+
+    {% if site.author.twitter %}
+      <a href="https://twitter.com/{{ site.author.twitter }}">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
+
+    {% if site.author.linkedin %}
+      <a href="https://linkedin.com/in/{{ site.author.linkedin }}">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
+</div>
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
