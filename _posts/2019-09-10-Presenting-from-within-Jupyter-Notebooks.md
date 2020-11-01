@@ -43,7 +43,7 @@ You can read more on this [here](https://rise.readthedocs.io/en/maint-5.5/).
 ![@JPVoogt](/public/img/JVoogt_2019-09-10-Presenting-from-within-Jupyter-Notebooks_2.png){:class="img-responsive"}
 
 ## Download My Notebooks and HTML files with the below link
-[CloudySQL – Data Manipulation Using Python for Beginners](https://blog.voogie.online/wp-content/uploads/2019/09/CloudySQL-Data-Manipulation-Using-Python-for-Beginners.zip)
+[CloudySQL – Data Manipulation Using Python for Beginners](https://github.com/JVoogt/Presentations/tree/master/CloudySQL%20-%20Data%20Manipulation%20Using%20Python%20for%20Beginners)
 
 _Disclaimer:  Content is accurate at the time of publication, however updates and new additions happen frequently which could change the accuracy or relevance. Please keep this in mind when using my content as guidelines. Please always test in a testing or development environment, I do not accept any liability for damages caused by this content._
 
