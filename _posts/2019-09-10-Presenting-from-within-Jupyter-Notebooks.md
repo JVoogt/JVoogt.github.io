@@ -46,5 +46,6 @@ You can read more on this [here](https://rise.readthedocs.io/en/maint-5.5/).
 ## Download My Notebooks and HTML files with the below link
 [CloudySQL – Data Manipulation Using Python for Beginners](https://github.com/JVoogt/Presentations/tree/master/CloudySQL%20-%20Data%20Manipulation%20Using%20Python%20for%20Beginners)
 
-_Disclaimer:  Content is accurate at the time of publication, however updates and new additions happen frequently which could change the accuracy or relevance. Please keep this in mind when using my content as guidelines. Please always test in a testing or development environment, I do not accept any liability for damages caused by this content._
 
+
+{% include post_footer.html %}
