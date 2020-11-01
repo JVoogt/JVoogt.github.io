@@ -25,5 +25,14 @@ plugins:
 version:             1.1.0
 google_analytics_id: G-T06HDHRPLY
 
+collections:
+  category:
+    output: true
 
-  
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"

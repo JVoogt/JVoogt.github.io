@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Presenting from within Jupyter Notebooks
-categories: How2
+categories: how2
 comments: true
 ---
 

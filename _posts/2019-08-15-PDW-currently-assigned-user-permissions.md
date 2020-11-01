@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PDW - Currently Assign User Permissions
-categories: Code
+categories: code
 comments: true
 ---
 
