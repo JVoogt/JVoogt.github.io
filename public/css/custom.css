@@ -6,6 +6,10 @@
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    width: 160px;
+    width: 250px;
     margin: 0 auto;
+}
+
+.sidebar-logo aligncenter {
+    text-align: center;
 }

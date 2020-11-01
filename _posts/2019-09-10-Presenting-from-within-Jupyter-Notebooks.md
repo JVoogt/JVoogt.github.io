@@ -24,7 +24,7 @@ RISE brings together the best of both worlds, it allows you to run code blocks w
 ### Presenting Directly from your Notebook
 This works well for a technical audience, When they are more interested in your code and results rather than the flash of a good PowerPoint Presentation.
 
-![image-title-here](/public/img/JVoogt_2019-09-10-Presenting-from-within-Jupyter-Notebooks_1.png){:class="img-responsive"}
+![@JPVoogt](/public/img/JVoogt_2019-09-10-Presenting-from-within-Jupyter-Notebooks_1.png){:class="img-responsive"}
  
 ### Built in Presentation Mode
 {% highlight sql %}
@@ -39,7 +39,9 @@ Go over to Matthew Speck’s article for a detailed setup: [link](https://medium
 This is by far my favorite method of presenting a Notebook as it combined the best of both worlds. It is built on the Reveal.js framework. RISE allows you to present your Notebook in a PowerPoint format, with the ability to still execute your code blocks in the presentation mode.
 
 You can read more on this [here](https://rise.readthedocs.io/en/maint-5.5/).
- 
+
+![@JPVoogt](/public/img/JVoogt_2019-09-10-Presenting-from-within-Jupyter-Notebooks_2.png){:class="img-responsive"}
+
 ## Download My Notebooks and HTML files with the below link
 [CloudySQL – Data Manipulation Using Python for Beginners](https://blog.voogie.online/wp-content/uploads/2019/09/CloudySQL-Data-Manipulation-Using-Python-for-Beginners.zip)
 
