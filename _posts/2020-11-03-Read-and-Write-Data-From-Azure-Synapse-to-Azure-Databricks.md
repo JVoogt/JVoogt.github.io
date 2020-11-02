@@ -25,39 +25,41 @@ Below I go through the basic outline of what is required to load data from Azure
 #### CONFIGURE BLOB CREDENTIALS
 
 {% highlight python %}
-spark.conf.set( "fs.azure.account.key.<>.blob.core.windows.net", "")
+spark.conf.set(
+  "fs.azure.account.key.<BLOBSTORAGENAME>.blob.core.windows.net",
+  "<ACCESSKEY>")
 {% endhighlight %}
 
 #### CONFIGURE JDBC AND BLOB PATH
 
 {% highlight python %}
-jdbc = "jdbc:sqlserver://<SERVERNAME>.database.windows.net:1433;database=;user=@;password=;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;" 
-blob = "wasbs://@.blob.core.windows.net/"
+jdbc = "jdbc:sqlserver://<YOURSERVERNAME>.database.windows.net:1433;database=<YOURDATABASENAME>;user=<SQLUSERNAME>@<YOURDATABASENAME>;password=<PASSWORD>;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;"
+blob = "wasbs://<BLOBCONTAINER>@<BLOBSTORAGENAME>.blob.core.windows.net/"
 {% endhighlight %}
 
 #### READ DATA FROM SYNAPSE INTO DATAFRAME
 
 {% highlight python %}
-df = spark.read
-.format("com.databricks.spark.sqldw")
-.option("url", jdbc)
-.option("tempDir", blob)
-.option("forwardSparkAzureStorageCredentials", "true")
-.option("Query", "SELECT TOP 1000 * FROM <> ORDER BY NEWID()")
-.load()
+df = spark.read \
+  .format("com.databricks.spark.sqldw") \
+  .option("url", jdbc) \
+  .option("tempDir", blob) \
+  .option("forwardSparkAzureStorageCredentials", "true") \
+  .option("Query", "SELECT TOP 1000 * FROM <> ORDER BY NEWID()") \
+  .load()
 {% endhighlight %}
 
 #### WRITE DATA FROM DATAFRAME BACK TO AZURE SYNAPSE
 
 {% highlight python %}
-df.write
-.format("com.databricks.spark.sqldw")
-.option("url", jdbc)
-.option("forwardSparkAzureStorageCredentials", "true")
-.option("dbTable", "YOURTABLENAME")
-.option("tempDir", blob)
-.mode("overwrite")
-.save()
+df.write \
+  .format("com.databricks.spark.sqldw") \
+  .option("url", jdbc) \
+  .option("forwardSparkAzureStorageCredentials", "true") \
+  .option("dbTable", "YOURTABLENAME") \
+  .option("tempDir", blob) \
+  .mode("overwrite") \
+  .save()
 {% endhighlight %}
 
 
