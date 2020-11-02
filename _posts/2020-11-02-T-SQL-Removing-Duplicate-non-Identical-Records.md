@@ -33,7 +33,7 @@ WHERE   RN = 1
 {% endhighlight %}
 
 
-## Remove Duplicate Records From Table
+## Remove Duplicate Records From a Table
 
 #### Description 
 
