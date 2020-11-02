@@ -11,7 +11,7 @@ Let us jump right in, the first thing that we need to know is that the APS/PDW i
 
 ## Code Snippet
 
-{% highlight sql %}
+```sql
 SELECT	DPUsers.name AS UserName, 
 		permission_name,	
 		object_name(major_id) AS ObjectName
@@ -22,7 +22,7 @@ AND DPUsers.name not like 'NT SERVICE%'
 AND DPUsers.name not like 'NT AUTHORITY%' 
 AND DPUsers.name != 'public' 
 and DPUsers.name not like 'l_cert%' 
-{% endhighlight %}
+```
 
 ## Review
 
