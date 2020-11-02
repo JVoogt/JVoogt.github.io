@@ -55,4 +55,4 @@ WHERE   RN != 1
 
 
 
-{% include footer.html %}
+{% include post_footer.html %}

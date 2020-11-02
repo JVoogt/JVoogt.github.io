@@ -19,4 +19,4 @@ comments: true
 
 [link](link)
 
-{% include footer.html %}
+{% include post_footer.html %}
