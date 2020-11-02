@@ -24,22 +24,22 @@ Below I go through the basic outline of what is required to load data from Azure
 
 #### CONFIGURE BLOB CREDENTIALS
 
-{% highlight python %}
+```python
 spark.conf.set(
   "fs.azure.account.key.<BLOBSTORAGENAME>.blob.core.windows.net",
   "<ACCESSKEY>")
-{% endhighlight %}
+```
 
 #### CONFIGURE JDBC AND BLOB PATH
 
-{% highlight python %}
+```python
 jdbc = "jdbc:sqlserver://<YOURSERVERNAME>.database.windows.net:1433;database=<YOURDATABASENAME>;user=<SQLUSERNAME>@<YOURDATABASENAME>;password=<PASSWORD>;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;"
 blob = "wasbs://<BLOBCONTAINER>@<BLOBSTORAGENAME>.blob.core.windows.net/"
-{% endhighlight %}
+```
 
 #### READ DATA FROM SYNAPSE INTO DATAFRAME
 
-{% highlight python %}
+```python
 df = spark.read \
   .format("com.databricks.spark.sqldw") \
   .option("url", jdbc) \
@@ -47,11 +47,12 @@ df = spark.read \
   .option("forwardSparkAzureStorageCredentials", "true") \
   .option("Query", "SELECT TOP 1000 * FROM <> ORDER BY NEWID()") \
   .load()
-{% endhighlight %}
+  ```
+
 
 #### WRITE DATA FROM DATAFRAME BACK TO AZURE SYNAPSE
 
-{% highlight python %}
+```python
 df.write \
   .format("com.databricks.spark.sqldw") \
   .option("url", jdbc) \
@@ -60,7 +61,6 @@ df.write \
   .option("tempDir", blob) \
   .mode("overwrite") \
   .save()
-{% endhighlight %}
-
+```
 
 {% include post_footer.html %}

@@ -19,7 +19,7 @@ When removing duplicates you will have to decide what makes your record unique, 
 
 #### Code
 
-{% highlight sql %}
+```sql
 WITH CTE
 AS
 (
@@ -30,7 +30,7 @@ AS
 SELECT  *
 FROM    CTE
 WHERE   RN = 1
-{% endhighlight %}
+```
 
 
 ## Remove Duplicate Records From a Table
@@ -41,7 +41,7 @@ Sometimes you are not just removing duplicates for reporting purposes and you wa
 
 #### Code
 
-{% highlight sql %}
+```sql
 WITH CTE
 AS
 (
@@ -51,7 +51,7 @@ AS
 )
 DELETE FROM CTE
 WHERE   RN != 1
-{% endhighlight %}
+```
 
 
 
