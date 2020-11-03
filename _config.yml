@@ -18,6 +18,9 @@ author:
   linkedin:          jean-pierre-voogt-a8b35132
 
 # Gems
+gems:
+  - jekyll-sitemap
+# Gems
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
