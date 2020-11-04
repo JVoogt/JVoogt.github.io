@@ -6,7 +6,7 @@ comments: true
 ---
 
 ## Introduction
-I have gotten so use to Adam Machanic's [sp_whoisactive](http://whoisactive.com/) that when we migrated our workload to Azure Synapse I felt completely lost. So over time I started to compile my own little queries to inspect what is going on, it is far from perfect, but for me it was a great start. Please feel free to make changes to the [project](https://github.com/JVoogt/sp_synapse_queries) on GitHub
+I have gotten so use to Adam Machanic's [sp_whoisactive](http://whoisactive.com/) that when we migrated our workloads to Azure Synapse I felt completely lost. So over time I started to compile my own little queries to inspect what is/was going on, it is far from perfect, but for me it was a great start. Please feel free to make changes to the [project](https://github.com/JVoogt/sp_synapse_queries) on GitHub
 
 ## Installation
 You should be able to just open and run the sp_synapse_queries_combined.sql script, this will "deploy" 2 Stored Procedures
