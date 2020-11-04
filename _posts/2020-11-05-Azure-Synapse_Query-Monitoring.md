@@ -16,20 +16,24 @@ You should be able to just open and run the sp_synapse_queries_combined.sql scri
 
 I wanted to add both into 1, but unfortunatly Azure Synapse does not yet allow us to create parameters in Stored Procedures with default values.
 
+[Clone or Download Here](https://github.com/JVoogt/sp_synapse_queries)
+
 ## Permissions Required
 
-GRANT VIEW DATABASE STATE
+GRANT VIEW DATABASE STATE ON
 GRANT EXECUTE ON sp_synapse_queries
 GRANT EXECUTE ON sp_synapse_queries_deepdive
 
 ## How to Use
-So lets get started, where should you begin? That is relatively simple, all you need to do is run the below SQL command.
+So lets get started, all you need to do is run the below SQL command.
 
 ```sql
 EXEC dbo.sp_whoisactive;
 ```
 
 Ok great, what now. Well now I explain (will be shortened due to me not enjoying documentation), you will get the below output. The first results set is all the queries in the queue (YES THAT MEANS IT IS NOT DOING ANYTHING), the second result set is all the queries that is actually running at the moment.
+
+You can also read [Microsoft Docs](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor) on this, as some of the code came from there.
 
 
 |Column Name	|JP’s Description|
@@ -44,7 +48,7 @@ Ok great, what now. Well now I explain (will be shortened due to me not enjoying
 |start_time	|When did it actually start|
 |end_compile_time	|When did it finish creating the execution plan|
 |end_time	|When did your query finish|
-|label	|Yes you guessed it|
+|label	|Query Label|
 |command	|SQL Command that is being executed|
 |blocking_session_id	|If populated something is blocking your query|
 |app_name	|Application Session is coming from|
