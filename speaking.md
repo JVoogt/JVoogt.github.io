@@ -5,9 +5,9 @@ title: Speaking
 
 ## Speaker Bio
 
-South African Data Tinkerer and @Microsoft Fanboy
-@dataplatformjhb leader
-Formula 1 enthusiasts and Father
+South African Data Tinkerer and @Microsoft Fanboy, 
+@dataplatformjhb leader, 
+Formula 1 enthusiasts and Father, 
 (He/Him)
 
 Jean-Pierre speaks at the Johannesburg SQL User Group, trying to give back to the SQL community as much as possible. He loves to tinker with SQL Server and see how he can approach a problem with a different angle.
