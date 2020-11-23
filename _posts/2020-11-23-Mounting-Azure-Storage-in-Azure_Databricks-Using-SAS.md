@@ -8,7 +8,7 @@ comments: true
 ## Introduction
 I found multiple articles on how to mount an Azure Storage account in Azure Databricks, but most of them refered to using the Azure Key Vault which I do not want to setup at this time. So I decided to continue my quest as I required the storage account and container to be mounted for me to read the *.sas7dbat files into a Dataframe. I also could not find clear instructions on how to use the Databricks CLI in Azure Databricks.
 
-## Prerequisite
+## Prerequisites
  1. [Azure Subscription](https://azure.microsoft.com/en-us/free/)
  1. [Azure Storage Account](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal) with a [Container](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal) ready
  2. [Azure Databricks](https://azure.microsoft.com/en-us/services/databricks/#:~:text=Azure%20Databricks%20provides%20the%20latest,scale%20and%20availability%20of%20Azure)
