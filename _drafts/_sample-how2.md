@@ -11,9 +11,13 @@ comments: true
 
 ### Code
 
-{% highlight sql %}
+```python
 
-{% endhighlight %}
+```
+
+```sql
+
+```
 
 ## External Links
 
