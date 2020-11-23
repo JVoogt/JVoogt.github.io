@@ -83,7 +83,7 @@ For the recommended method please go through this [article](https://docs.databri
 spark.conf.set("fs.azure.account.key.<Storage Account Name>.blob.core.windows.net", "<Storage Key>")
   
   
-jdbc = "jdbc:sqlserver://<SynapseDBServer>.database.windows.net:1433;database=zajbppdw01;user=<USERNAME>@<DATABASE NAME>;password=<PASSWORD>;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;"
+jdbc = "jdbc:sqlserver://<SynapseDBServer>.database.windows.net:1433;database=<DATABASE NAME>;user=<USERNAME>@<DATABASE NAME>;password=<PASSWORD>;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;"
 blob = "wasbs://<CONTAINER NAME>@<STORAGE ACCOUNT NAME>.blob.core.windows.net/<DIR>"
 ```
 
