@@ -39,6 +39,7 @@ So today I want to show you how to add your own code snippets. I use INFORMATION
  9. Now select Table/Column as per the list we defined in our code above, Select what you are looking for and press "TAB" and press "TAB" again to move to the search criteria.
  10. Type the Table or Column Name you are looking for, then press "TAB" again to move out of the snippet context.
 
+<iframe width="420" height="315" src="https://youtu.be/4Bd2Ibb3wyY" frameborder="0" allowfullscreen></iframe>
 
 ## External Links
 
