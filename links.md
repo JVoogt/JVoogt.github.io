@@ -9,6 +9,10 @@ title: URL Store
 
 ------------
 
+ - [SQL](https://docs.microsoft.com/en-us/sql/?view=sql-server-ver15)
+ - [SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15)
+ - [Azure SQL](https://docs.microsoft.com/en-us/azure/azure-sql/)
+
 #### SQL First-Aid
 
 ------------
@@ -28,6 +32,12 @@ title: URL Store
 - [#DataWeekender](https://www.dataweekender.com/)
 - [SQL Server Central](https://www.sqlservercentral.com/)
 - [SQL Shack](https://www.sqlshack.com/)
+
+#### Information
+
+------------
+
+ - [TSQL Beginners Course](https://litknd.github.io/TSQLBeginners/)
 
 #### Blogs (alphabetically)
 
@@ -73,12 +83,43 @@ title: URL Store
 
 ------------
 
+ - [Azure Synapse](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/)
  - [Memory and Concurrency Limits](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/memory-concurrency-limits)
 
 
 #### Blogs
 
 ------------
+
+## Data Science
+
+------------
+
+------------
+
+ - [Data Science Path](https://twitter.com/PrasoonPratham/status/1330372876134912000?s=09)
+ - [Top 30 Data Science Courses](https://www.ubuntupit.com/best-data-science-courses-available/)
+ - [10 Data Science and ML Courses](https://dev.to/javinpaul/10-data-science-and-machine-learning-courses-for-programmers-looking-to-switch-career-57kd)
+ - [DevOps in Data Science](https://techcommunity.microsoft.com/t5/tag/DevOps/tg-p/board-id/DataArchitectureBlog?s=09)
+ - [How Decision Trees Work](https://e2eml.school/how_decision_trees_work.html)
+ - [Model Performance Measures](https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/)
+ - [WoE](https://sundarstyles89.medium.com/weight-of-evidence-and-information-value-using-python-6f05072e83eb)
+ - [Regression Solvers](https://towardsdatascience.com/dont-sweat-the-solver-stuff-aea7cddc3451)
+
+#### Python
+
+------------
+
+ - [Python Course](https://www.freecodecamp.org/news/intermediate-python-course/)
+ - [Awesome Python Dict](https://just-taking-a-ride.com/inside_python_dict/chapter1.html)
+ - [Python Advanced Features](https://towardsdatascience.com/5-advanced-features-of-python-and-how-to-use-them-73bffa373c84)
+ - [Pandas ColumnTransformer](https://twitter.com/justmarkham/status/1239545355265507328?s=09)
+ - [Pandas Large Datasets](https://twitter.com/justmarkham/status/1207672613130121221?s=08)
+ - [Pandas Read Clipboard](https://twitter.com/KatieKodes/status/1179411743199633408?s=08)
+ - [Pandas Techniques](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/)
+ - [GPU Numpy](https://pyvideo.org/scipy-japan-2019/cupy.html)
+ - [Web Scraping(Data Wookie)](https://github.com/datawookie/talks/tree/master/2019-10-11-pycon)
+
 
 ## Other
 
@@ -87,3 +128,7 @@ title: URL Store
 ------------
 
  - [markdown Editor](https://pandao.github.io/editor.md/en.html)
+ - [git learn branching](https://learngitbranching.js.org/?s=09)
+ - [Git for DBA's](https://www.sqlservercentral.com/articles/basic-git-for-dbas-getting-started-with-git)
+ - [Perfect Workflows](https://github.com/PrefectHQ/prefect)
+ - [HammerDB](https://www.hammerdb.com/benchmarks.html)
