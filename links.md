@@ -23,21 +23,49 @@ title: URL Store
 
 - [PASS](https://www.pass.org/)
 - [SQL Saturday](https://www.sqlsaturday.com/)
+- [GroupBy](https://groupby.org/)
+- [EightKb](https://eightkb.online/)
+- [#DataWeekender](https://www.dataweekender.com/)
 - [SQL Server Central](https://www.sqlservercentral.com/)
 - [SQL Shack](https://www.sqlshack.com/)
 
-#### Blogs
+#### Blogs (alphabetically)
 
 ------------
 
- - [Cathrine Wilhelmsen](https://www.cathrinewilhelmsen.net/)
- - [Ginger Grant](https://www.desertislesql.com/)
- - [Gail Shaw](https://sqlinthewild.co.za/)
+ - [Alex Yates](http://workingwithdevs.com/)
+ - [Allen White](http://blog.allenmwhite.com/)
+ - [Andrew B. Collier](https://datawookie.netlify.app/blog/)
+ - [Andy Leonard](https://andyleonard.blog/)
+ - [Andy Yun](https://sqlbek.wordpress.com/)
+ - [Angela Henry](https://sqlswimmer.com/)
+ - [Bob Pusateri](https://www.bobpusateri.com/)
  - [Brent Ozar](https://www.brentozar.com/blog/)
- - [Paul Randal](https://www.sqlskills.com/blogs/paul/)
- - [Kendra Little](https://littlekendra.com/)
+ - [Carlos Robles](http://dbamastery.com/)
+ - [Cathrine Wilhelmsen](https://www.cathrinewilhelmsen.net/)
+ - [Chris Yates](https://chrisyatessql.com/)
+ - [Ed Watson](https://sqlgator.com/)
+ - [Erin Stellato](https://www.sqlskills.com/blogs/erin/)
+ - [Gail Shaw](https://sqlinthewild.co.za/)
+ - [Ginger Grant](https://www.desertislesql.com/)
  - [Glenn Berry](https://glennsqlperformance.com/glenns-blog/)
-
+ - [Grant Fritchey](http://www.scarydba.com/)
+ - [Hamish Watson](https://moosh.co.nz/)
+ - [Hugo Kornelis](https://sqlserverfast.com/blog/)
+ - [Itzik Ben-Gan](https://tsql.lucient.com/)
+ - [James McGillivray](http://jimbabwe.co.za/)
+ - [Jonathan Kehayias](https://www.sqlskills.com/blogs/jonathan/)
+ - [Kendra Little](https://littlekendra.com/)
+ - [Kimberly L. Tripp](https://www.sqlskills.com/blogs/kimberly/)
+ - [Martin Catherall](http://martincatherall.com/)
+ - [Michael J Swart](https://michaeljswart.com/)
+ - [Michael Johnson](https://michaeladrianjohnson.com/)
+ - [Paul Randal](https://www.sqlskills.com/blogs/paul/)
+ - [Pinal Dave](https://blog.sqlauthority.com/all-articles/)
+ - [Rob Farley](http://blogs.lobsterpot.com.au/)
+ - [Shabnam Watson](https://shabnamwatson.wpcomstaging.com/)
+ - [Thomas LaRock](https://thomaslarock.com/blog/)
+ - [Uwe Ricken](https://www.db-berater.de/sql-server-blog/)
 
 ## Azure Synapse
 
