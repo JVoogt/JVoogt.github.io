@@ -46,39 +46,41 @@ title: URL Repository
 
 ------------
 
- - [Alex Yates](http://workingwithdevs.com/)
- - [Allen White](http://blog.allenmwhite.com/)
- - [Andrew B. Collier](https://datawookie.netlify.app/blog/)
- - [Andy Leonard](https://andyleonard.blog/)
- - [Andy Yun](https://sqlbek.wordpress.com/)
- - [Angela Henry](https://sqlswimmer.com/)
- - [Bob Pusateri](https://www.bobpusateri.com/)
- - [Brent Ozar](https://www.brentozar.com/blog/)
- - [Carlos Robles](http://dbamastery.com/)
- - [Cathrine Wilhelmsen](https://www.cathrinewilhelmsen.net/)
- - [Chris Yates](https://chrisyatessql.com/)
- - [Ed Watson](https://sqlgator.com/)
- - [Erin Stellato](https://www.sqlskills.com/blogs/erin/)
- - [Gail Shaw](https://sqlinthewild.co.za/)
- - [Ginger Grant](https://www.desertislesql.com/)
- - [Glenn Berry](https://glennsqlperformance.com/glenns-blog/)
- - [Grant Fritchey](http://www.scarydba.com/)
- - [Hamish Watson](https://moosh.co.nz/)
- - [Hugo Kornelis](https://sqlserverfast.com/blog/)
- - [Itzik Ben-Gan](https://tsql.lucient.com/)
- - [James McGillivray](http://jimbabwe.co.za/)
- - [Jonathan Kehayias](https://www.sqlskills.com/blogs/jonathan/)
- - [Kendra Little](https://littlekendra.com/)
- - [Kimberly L. Tripp](https://www.sqlskills.com/blogs/kimberly/)
- - [Martin Catherall](http://martincatherall.com/)
- - [Michael J Swart](https://michaeljswart.com/)
- - [Michael Johnson](https://michaeladrianjohnson.com/)
- - [Paul Randal](https://www.sqlskills.com/blogs/paul/)
- - [Pinal Dave](https://blog.sqlauthority.com/all-articles/)
- - [Rob Farley](http://blogs.lobsterpot.com.au/)
- - [Shabnam Watson](https://shabnamwatson.wpcomstaging.com/)
- - [Thomas LaRock](https://thomaslarock.com/blog/)
- - [Uwe Ricken](https://www.db-berater.de/sql-server-blog/)
+| Author  | URL  |
+| ------------ | ------------ |
+| [Alex Yates](http://workingwithdevs.com/) | [http://workingwithdevs.com/](http://workingwithdevs.com/) |
+| [Allen White](http://blog.allenmwhite.com/) | [http://blog.allenmwhite.com/](http://blog.allenmwhite.com/) |
+| [Andrew B. Collier](https://datawookie.netlify.app/blog/) | [https://datawookie.netlify.app/blog/](https://andyleonard.blog/) |
+| [Andy Leonard](https://andyleonard.blog/) | [https://andyleonard.blog/](https://andyleonard.blog/) |
+| [Andy Yun](https://sqlbek.wordpress.com/) | [https://sqlbek.wordpress.com/](https://sqlbek.wordpress.com/) |
+| [Angela Henry](https://sqlswimmer.com/) | [https://sqlswimmer.com/](https://sqlswimmer.com/) |
+| [Bob Pusateri](https://www.bobpusateri.com/) | [https://www.bobpusateri.com/](https://www.bobpusateri.com/) |
+| [Brent Ozar](https://www.brentozar.com/blog/) | [https://www.brentozar.com/blog/](https://www.brentozar.com/blog/) |
+| [Carlos Robles](http://dbamastery.com/) | [http://dbamastery.com/](http://dbamastery.com/) |
+| [Cathrine Wilhelmsen](https://www.cathrinewilhelmsen.net/) | [https://www.cathrinewilhelmsen.net/](https://www.cathrinewilhelmsen.net/) |
+| [Chris Yates](https://chrisyatessql.com/) | [https://chrisyatessql.com/](https://chrisyatessql.com/) |
+| [Ed Watson](https://sqlgator.com/) | [https://sqlgator.com/](https://sqlgator.com/) |
+| [Erin Stellato](https://www.sqlskills.com/blogs/erin/) | [https://www.sqlskills.com/blogs/erin/](https://www.sqlskills.com/blogs/erin/) |
+| [Gail Shaw](https://sqlinthewild.co.za/) | [https://sqlinthewild.co.za/](https://sqlinthewild.co.za/) |
+| [Ginger Grant](https://www.desertislesql.com/) | [https://www.desertislesql.com/](https://www.desertislesql.com/) |
+| [Glenn Berry](https://glennsqlperformance.com/glenns-blog/) | [https://glennsqlperformance.com/glenns-blog/](https://glennsqlperformance.com/glenns-blog/) |
+| [Grant Fritchey](http://www.scarydba.com/) | [http://www.scarydba.com/](http://www.scarydba.com/) |
+| [Hamish Watson](https://moosh.co.nz/) | [https://moosh.co.nz/](https://moosh.co.nz/) |
+| [Hugo Kornelis](https://sqlserverfast.com/blog/) | [https://sqlserverfast.com/blog/](https://sqlserverfast.com/blog/) |
+| [Itzik Ben-Gan](https://tsql.lucient.com/) | [https://tsql.lucient.com/](https://tsql.lucient.com/) |
+| [James McGillivray](http://jimbabwe.co.za/) | [http://jimbabwe.co.za/](http://jimbabwe.co.za/) |
+| [Jonathan Kehayias](https://www.sqlskills.com/blogs/jonathan/) | [https://www.sqlskills.com/blogs/jonathan/](https://www.sqlskills.com/blogs/jonathan/) |
+| [Kendra Little](https://littlekendra.com/) | [https://littlekendra.com/](https://littlekendra.com/) |
+| [Kimberly L. Tripp](https://www.sqlskills.com/blogs/kimberly/) | [https://www.sqlskills.com/blogs/kimberly/](https://www.sqlskills.com/blogs/kimberly/) |
+| [Martin Catherall](http://martincatherall.com/) | [http://martincatherall.com/](http://martincatherall.com/) |
+| [Michael J Swart](https://michaeljswart.com/) | [https://michaeljswart.com/](https://michaeljswart.com/) |
+| [Michael Johnson](https://michaeladrianjohnson.com/) | [https://michaeladrianjohnson.com/](https://michaeladrianjohnson.com/) |
+| [Paul Randal](https://www.sqlskills.com/blogs/paul/) | [https://www.sqlskills.com/blogs/paul/](https://www.sqlskills.com/blogs/paul/) |
+| [Pinal Dave](https://blog.sqlauthority.com/all-articles/) | [https://blog.sqlauthority.com/all-articles/](https://blog.sqlauthority.com/all-articles/) |
+| [Rob Farley](http://blogs.lobsterpot.com.au/) | [http://blogs.lobsterpot.com.au/](http://blogs.lobsterpot.com.au/) |
+| [Shabnam Watson](https://shabnamwatson.wpcomstaging.com/) | [https://shabnamwatson.wpcomstaging.com/](https://shabnamwatson.wpcomstaging.com/) |
+| [Thomas LaRock](https://thomaslarock.com/blog/) | [https://thomaslarock.com/blog/](https://thomaslarock.com/blog/) |
+| [Uwe Ricken](https://www.db-berater.de/sql-server-blog/) | [https://www.db-berater.de/sql-server-blog/](https://www.db-berater.de/sql-server-blog/) |
 
 ## Azure Synapse
 
