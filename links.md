@@ -16,6 +16,7 @@ title: URL Repository
 #### SQL First-Aid
 
 ------------
+
 | URL  | Notes  |
 | ------------ | ------------ |
 | [Glenn Berry - DMV Notebook](https://www.dropbox.com/s/pi462x7cr3msdgj/Azure%20SQL%20Database%20Diagnostic%20Information%20Queries.ipynb?dl=0)  | A very awesome notebook for use in Azure Data Studio to gather information when on new environments.  |
@@ -98,6 +99,7 @@ title: URL Repository
 ------------
 
 ------------
+
 | URL  | Notes  |
 | ------------ | ------------ |
 | [Data Science Path](https://twitter.com/PrasoonPratham/status/1330372876134912000?s=09) | a Twitter Thread on a recommend path for a new Data Scientist |
