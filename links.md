@@ -16,10 +16,12 @@ title: URL Repository
 #### SQL First-Aid
 
 ------------
+| URL  | Notes  |
+| ------------ | ------------ |
+| [Glenn Berry - DMV Notebook](https://www.dropbox.com/s/pi462x7cr3msdgj/Azure%20SQL%20Database%20Diagnostic%20Information%20Queries.ipynb?dl=0)  | A very awesome notebook for use in Azure Data Studio to gather information when on new environments.  |
+| [Paul Randal - Where Does it Hurt](https://www.sqlskills.com/blogs/paul/wait-statistics-or-please-tell-me-where-it-hurts/)  | Identify the Top Wait Stats for an SQL Server Instance  |
+| [Brent Ozar - First Responder](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit/archive/dev.zip)  | Very comprehensive tool set for helping with investigations |
 
- - [Glenn Berry - DMV Notebook](https://www.dropbox.com/s/pi462x7cr3msdgj/Azure%20SQL%20Database%20Diagnostic%20Information%20Queries.ipynb?dl=0)
- - [Paul Randal - Where Does it Hurt](https://www.sqlskills.com/blogs/paul/wait-statistics-or-please-tell-me-where-it-hurts/)
- - [Brent Ozar - First Responder](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit/archive/dev.zip)
 
 #### Community
 
@@ -96,15 +98,17 @@ title: URL Repository
 ------------
 
 ------------
+| URL  | Notes  |
+| ------------ | ------------ |
+| [Data Science Path](https://twitter.com/PrasoonPratham/status/1330372876134912000?s=09) | a Twitter Thread on a recommend path for a new Data Scientist |
+| [Top 30 Data Science Courses](https://www.ubuntupit.com/best-data-science-courses-available/) | Articel listing some good Data Science courses |
+| [10 Data Science and ML Courses](https://dev.to/javinpaul/10-data-science-and-machine-learning-courses-for-programmers-looking-to-switch-career-57kd) | 10 More Courses for new and aspiring Data Scientists  |
+| [DevOps in Data Science](https://techcommunity.microsoft.com/t5/tag/DevOps/tg-p/board-id/DataArchitectureBlog?s=09) | Buck Woody Articles on DevOps for Data Science  |
+| [How Decision Trees Work](https://e2eml.school/how_decision_trees_work.html) | Explaining in detail how decision trees work  |
+| [Model Performance Measures](https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/) | How to measure performance of a ML Model |
+| [WoE](https://sundarstyles89.medium.com/weight-of-evidence-and-information-value-using-python-6f05072e83eb) | Weight of Evidence in python |
+| [Regression Solvers](https://towardsdatascience.com/dont-sweat-the-solver-stuff-aea7cddc3451) | Explaining the different Regrerssion Resolvers |
 
- - [Data Science Path](https://twitter.com/PrasoonPratham/status/1330372876134912000?s=09)
- - [Top 30 Data Science Courses](https://www.ubuntupit.com/best-data-science-courses-available/)
- - [10 Data Science and ML Courses](https://dev.to/javinpaul/10-data-science-and-machine-learning-courses-for-programmers-looking-to-switch-career-57kd)
- - [DevOps in Data Science](https://techcommunity.microsoft.com/t5/tag/DevOps/tg-p/board-id/DataArchitectureBlog?s=09)
- - [How Decision Trees Work](https://e2eml.school/how_decision_trees_work.html)
- - [Model Performance Measures](https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/)
- - [WoE](https://sundarstyles89.medium.com/weight-of-evidence-and-information-value-using-python-6f05072e83eb)
- - [Regression Solvers](https://towardsdatascience.com/dont-sweat-the-solver-stuff-aea7cddc3451)
 
 #### Python
 
