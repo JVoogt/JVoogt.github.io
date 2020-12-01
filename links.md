@@ -1,6 +1,6 @@
 ---
 layout: page
-title: URL Store
+title: URL Repository
 ---
 
 ## SQL Server
