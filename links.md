@@ -9,9 +9,9 @@ title: URL Repository
 
 ------------
 
- - [SQL](https://docs.microsoft.com/en-us/sql/?view=sql-server-ver15)
- - [SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15)
- - [Azure SQL](https://docs.microsoft.com/en-us/azure/azure-sql/)
+ - [SQL](https://docs.microsoft.com/en-us/sql/?view=sql-server-ver15) - *The Landing Page of SQL Server for the Internet*
+ - [SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15) - *SQL Server Technical Docs*
+ - [Azure SQL](https://docs.microsoft.com/en-us/azure/azure-sql/) - *Azure SQL Documentation*
 
 #### SQL First-Aid
 
@@ -40,7 +40,7 @@ title: URL Repository
 
 ------------
 
- - [TSQL Beginners Course](https://litknd.github.io/TSQLBeginners/)
+** [TSQL Beginners Course](https://litknd.github.io/TSQLBeginners/)** - Well outlined Starting point for people interested in learning TSQL
 
 #### Blogs (alphabetically)
 
