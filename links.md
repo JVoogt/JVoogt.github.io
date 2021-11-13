@@ -140,3 +140,4 @@ title: URL Repository
  - [Git for DBA's](https://www.sqlservercentral.com/articles/basic-git-for-dbas-getting-started-with-git)
  - [Perfect Workflows](https://github.com/PrefectHQ/prefect)
  - [HammerDB](https://www.hammerdb.com/benchmarks.html)
+ - [Kampi.co.za](https://www.kampi.co.za/s)
